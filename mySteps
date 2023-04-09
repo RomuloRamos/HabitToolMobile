@@ -1,0 +1,20 @@
+- npm install -g expo-cli
+- npx create-expo-app mobile --template
+- install expo in your phone
+- run the application: npx expo start
+- scan the QR Code in the Expo app at device
+- create src folder, with its ouw assets folder
+- Import the font inter from google fonts: npx expo install expo-font @expo-google-fonts/inter 
+- install tailwind para Native: 
+    npm i nativewind
+    npm i tailwindcss --save-dev
+- npx tailwind init
+- completar arquivo babel.config com:
+    plugins: ['nativewind/babel']
+- Library to use SVG format: 
+    npx expo install react-native-svg
+- Library to use SVG as a component:
+    npm i react-native-svg-transformer --save-dev
+- npm install dayjs
+- Install navegation library:
+    npm install @react-navigation/native
