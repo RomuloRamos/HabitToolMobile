@@ -20,3 +20,9 @@
     npm install @react-navigation/native
     npx expo install react-native-screens react-native-safe-area-context
     npm install @react-navigation/native-stack
+- intall axios: npm i axios
+- install the clsx library to handle conditional css: npm install --save clsx
+- instal the reanimated library:
+    npx expo install react-native-reanimated
+- add the react-native-reanimated/plugin at the plugins list in babel.config.js file
+- start the application with: npx expo start --clear
