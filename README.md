@@ -1,61 +1,62 @@
 # 📱 HabitToolMobile
-Um projeto de frontend de estudo desenvolvido durante o evento @Rocketset Ignite.
+A study frontend project developed during the @Rocketset Ignite event.
 
-## 📜 Descrição
-HabitToolMobile é a interface do usuário do aplicativo HabitTool, um sistema para acompanhar e manter um registro de hábitos diários. Este repositório contém o código-fonte do aplicativo mobile, desenvolvido com React Native e Expo.
+## 📜 Description
+HabitToolMobile is the user interface of the HabitTool application, a system for tracking and maintaining a record of daily habits. This repository contains the source code of the mobile frontend of the application, developed with React Native and Expo.
 
-## ✨ Recursos/Funcionalidades
-- Registro de hábitos diários
-- Visualização do progresso de hábitos
-- Definição de metas e lembretes
-- Personalização da aparência da interface
+## ✨ Features
+- Daily habit registration
+- Habit progress tracking
+- Goal setting and reminders
+- Interface customization
 
-## ⚙️ Pré-requisitos
-- Node.js (versão X.X.X)
-- npm (gerenciador de pacotes do Node.js)
-- Expo CLI (instalado globalmente)
+## ⚙️ Prerequisites
+- Node.js (version X.X.X)
+- npm (Node.js package manager)
+- Expo CLI (globally installed)
 
-## 🚀 Instalação
-1. Clone o repositório para o seu ambiente local:
+## 🚀 Installation
+1. Clone the repository to your local environment:
 git clone https://github.com/RomuloRamos/HabitToolMobile.git
-2. Acesse o diretório do projeto:
+2. Navigate to the project directory:
 cd HabitToolMobile
-3. Instale as dependências:
+3. Install the dependencies:
 npm install
-4. Inicie o aplicativo:
+4. Start the application:
 expo start
-5. Abra o aplicativo no seu dispositivo móvel usando o Expo Client ou em um emulador.
+5. Open the application on your mobile device using the Expo Client app or an emulator.
 
-## 💡 Uso
-![HabitToolFrontend Preview](./Demo/Animation.gif)
-- Adicione hábitos diários que deseja acompanhar.
-- Marque os hábitos como concluídos todos os dias.
-- Acompanhe o progresso e visualize estatísticas dos seus hábitos.
+## 💡 Usage
+![HabitToolMobile Preview](./Demo/Animation.gif)
+- Add daily habits you want to track.
+- Mark habits as completed every day.
+- Track your progress and view statistics of your habits.
 
-## 🤝 Contribuição
-Contribuições são bem-vindas! Sinta-se à vontade para enviar solicitações de pull com melhorias, correções de bugs ou novos recursos. Para contribuir com o projeto, siga estas etapas:
-1. Faça um fork do repositório.
-2. Crie uma nova branch para suas alterações: `git checkout -b minha-feature`
-3. Faça as alterações desejadas e commit.
-4. Envie suas alterações para o seu fork: `git push origin minha-feature`
-5. Envie uma solicitação de pull no GitHub.
+## 🤝 Contribution
+Contributions are welcome! Feel free to submit pull requests with improvements, bug fixes, or new features. To contribute to the project, follow these steps:
+1. Fork the repository.
+2. Create a new branch for your changes: `git checkout -b my-feature`
+3. Make the desired changes and commit.
+4. Push your changes to your fork: `git push origin my-feature`
+5. Submit a pull request on GitHub.
 
-## 📄 Licença
-Este projeto está licenciado sob a [MIT License](https://opensource.org/licenses/MIT).
+## 📄 License
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
 
-## ✍️ Autor
-- Nome: Rômulo Ramos
+## ✍️ Author
+- Name: Rômulo Ramos
 - Email: romulo.ramos@gee.inatel.br
 
-## 📝 Notas Adicionais
-- Para obter mais informações sobre o backend do HabitTool, consulte o [repositório do HabitToolServer](https://github.com/RomuloRamos/HabitToolServer).
-- Conheça também a versão Web deste projeto, consulte o [repositório do HabitToolFrontend](https://github.com/RomuloRamos/HabitToolFrontend).
-- Para relatar problemas ou solicitar novos recursos, crie uma issue neste repositório.
+## 📝 Additional Notes
+- For more information about the HabitTool backend, please refer to the [HabitToolServer repository](https://github.com/RomuloRamos/HabitToolServer).
+- Also, check out the Web version of this project in the [HabitToolFrontend repository](https://github.com/RomuloRamos/HabitToolFrontend).
+- To report issues or request new features, create an issue in this repository.
 
 ---
 
-## ℹ️ Passos Adicionais (mysteps)
-Siga os passos abaixo para configurar seu ambiente de desenvolvimento para o projeto HabitToolMobile:
+## ℹ️ Additional Steps (mysteps)
+Follow the steps below to set up your development environment for the HabitToolMobile project:
 
-1. Certifique-se de ter o Node.js e o npm instalados em seu sistema.
-2. Instale o Expo CLI globalmente executando o seguint
+1. Make sure you have Node.js and npm installed on your system.
+2. Install the Expo CLI globally by executing the
+
