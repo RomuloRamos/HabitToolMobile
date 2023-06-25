@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "mobile",
-    "slug": "mobile",
+    "name": "habits",
+    "slug": "habits",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,10 +21,15 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#09090A"
+      },
+      "package": "com.romulo.franklin.habits"
+    },
+    "extra": {
+      "apiURL": "PUT THE API ADDRESS HERE!",
+      "eas": {
+        "projectId": "d05b0cce-cd86-4ff8-a473-251efdb8547e"
       }
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
-    }
+    "owner": "romulo.franklin"
   }
 }
