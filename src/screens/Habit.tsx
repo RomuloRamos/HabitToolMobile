@@ -22,6 +22,11 @@ interface DayHabitsProps {
     }[];
 }
 
+const dayHabits_default:DayHabitsProps = {
+    completedHabits: [],
+    possibleHabits:[]
+} 
+
 export function Habit() {
     const [loading, setLoading] = useState(true);   
     const [dayHabits, setDayHabits] = useState<DayHabitsProps>( {} as DayHabitsProps );

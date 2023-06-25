@@ -21,27 +21,29 @@ type SummaryProps = {
     completed: number;
 }[]
 
+enum RequestData {
+    Status_Loading = 0,
+    Status_Done,
+    Status_Error
+}
+
 export function Home(){
 
-    const [loading, setLoading] = useState(true);
+    const [loading, setLoading] = useState<RequestData>(RequestData.Status_Loading);
     const [summary, setSummary] = useState<SummaryProps >([]);
 
     const {navigate} = useNavigation();
     
     async function fetchData() {
         try {
-            setLoading(true);
+            setLoading(RequestData.Status_Loading);
             
             const response = await api.get('/summary');
             setSummary(response.data);
-
+            setLoading(RequestData.Status_Done);
         } catch (error) {
-
+            setLoading(RequestData.Status_Error);
             Alert.alert('Ops', 'Não foi possível carregar as informações sobe os hábitos');
-
-        } finally {
-
-            setLoading(false);
         }
     }
 
@@ -50,12 +52,21 @@ export function Home(){
             fetchData();
     },[]));
         
-    if(loading){
+    if(loading === RequestData.Status_Loading){
         return (
             <Loading></Loading>
         )
     }
-
+    if(loading === RequestData.Status_Error){
+        return (
+            <View className="flex-1 bg-background px-8 pt-16">
+                <Header />
+                <Text className="text-zinc-400 text-base mt-6">
+                    Sem Connexão com o servidor :(
+                </Text>
+            </View>
+        )
+    }
     return (
         <View className="flex-1 bg-background px-8 pt-16">
             <Header />

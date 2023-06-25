@@ -24,10 +24,8 @@
       },
       "package": "com.romulo.franklin.habits"
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
-    },
     "extra": {
+      "apiURL": "PUT THE API ADDRESS HERE!",
       "eas": {
         "projectId": "d05b0cce-cd86-4ff8-a473-251efdb8547e"
       }
